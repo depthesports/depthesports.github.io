@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+</head>
+
+<body>
+
+<h1> N-WORD ESPORTS</h1>
+
+<p> fUcK yOu! </p>
+
+</body>
+
+</html>
