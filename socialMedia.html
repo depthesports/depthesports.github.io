@@ -28,6 +28,28 @@
 		color: grey;
 	}
 	
+		.navbar-brand {
+	  padding: 0 15px;
+	  height: 80px;
+	  line-height: 80px;
+	}
+
+	.navbar-toggle {
+	  /* (80px - button height 34px) / 2 = 23px */
+	  margin-top: 23px;
+	  padding: 9px 10px !important;
+	}
+
+	@media (min-width: 768px) {
+	  .navbar-nav > li > a {
+		/* (80px - line-height of 27px) / 2 = 26.5px */
+		padding-top: 26.5px;
+		padding-bottom: 26.5px;
+		line-height: 27px;
+	  }
+	}
+
+	
 	.no-padding {
 		padding: 0px;
 		margin-top: -23px;
@@ -48,13 +70,13 @@
 			<span class="icon-bar"></span>
 			<span class="icon-bar"></span>                        
 		  </button>
-		  <a class="navbar-brand" href="#">Depth Esports</a>
+		  <a style="font-size: 25px" class="navbar-brand">Depth Esports</a>
 		</div>
 		<div class="collapse navbar-collapse" id="myNavbar">
 			<ul class="nav navbar-nav">
-			  <li><a href="index.html">Home</a></li>
-			  <li class="active"><a href="socialMedia.html">Social Media</a></li>
-			  <li><a target="_blank" href="https://agentink.gg/collections/depth/">Shop</a></li>
+			  <li style="font-size: 16px"><a href="index.html">Home</a></li>
+			  <li style="font-size: 16px"class="active"><a href="socialMedia.html">Social Media</a></li>
+			  <li style="font-size: 16px"><a target="_blank" href="https://agentink.gg/collections/depth/">Shop</a></li>
 			</ul>
 		</div>
 	  </div>
