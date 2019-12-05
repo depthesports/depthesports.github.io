@@ -4,51 +4,37 @@
 <head>
   <title> Depth Esports </title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+  <style>
+  
+	body {
+		background-color: black;
+	}
+  </style>
 
-   <script>
-	   function showHome() {
-		var homeSection = document.getElementById('home');
-		homeSection.style.display = 'block';
-		var socialMediaSection = document.getElementById('socialMedia');
-		socialMediaSection.style.display = 'none';
-	   }
-	   
-	   function showSocialMedia() {
-		var homeSection = document.getElementById('home');
-		homeSection.style.display = 'none';
-		var socialMediaSection = document.getElementById('socialMedia');
-		socialMediaSection.style.display = 'block';
-	   }
-   </script>
 </head>
 
 <body>
 
-   <button class="btn btn-primary" onclick="showHome()"> Home </button>
-   <button class="btn btn-success" onclick="showSocialMedia()"> Social Media </button>
+   <nav class="navbar navbar-inverse">
+	  <div class="container-fluid">
+		<div class="navbar-header">
+		  <a class="navbar-brand" href="#">Depth Esports</a>
+		</div>
+		<ul class="nav navbar-nav">
+		  <li class="active"><a href="index.html">Home</a></li>
+		  <li><a href="socialMedia.html">Social Media</a></li>
+
+		</ul>
+	  </div>
+	</nav>
 
   <div id="home">
-	  <h1> Depth Esports </h1>
-	  <p> Welcome to the official site of Depth Esports! Currently, we're still under construction. Check back soon for more updates! </p>
+	  <p style="margin-left: 10px; color: white"> Welcome to the official site of Depth Esports! Currently, we're still under construction. Check back soon for more updates! </p>
   </div>
-  
-  <div id="socialMedia" style="display: none">
-	  <h1> Social Media </h2>
-	  <p> 
-		<a href="https://twitter.com/DepthEsports"> Twitter </a>
-		<br>
-		<a href="https://www.facebook.com/DepthEsports/"> Facebook </a>
-		<br>
-		<a href="https://www.instagram.com/depth.esports/"> Instagram </a>
-		<br>
-		<a href="https://discord.gg/Ewj5eHc"> Discord </a>
-		<br>
-		<a href="https://www.youtube.com/channel/UCb9J0zT0lnFip3iIUnS2Agg"> YouTube </a>
-		<br>
-		<a href="https://www.twitch.tv/depth__esports"> Twitch </a>
-	  </p>
-   </div>
    
 </body>
 </html>
