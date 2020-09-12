@@ -38,7 +38,7 @@ a.nav-slogan {
     width: 60%;
     margin: auto;
     margin-top: 30px;
-    min-width: 300px;
+    min-width: 290px;
 }
 
 .about p {
@@ -59,13 +59,49 @@ span.highlight {
     font-style: italic;
 }
 
+.footer {
+    margin-top: 100px;
+    height: 100px;
+    background-color: rgb(10, 10, 10);
+}
+
+.fa {
+margin-top: 20px;
+  margin-left: 15px;
+  padding: 20px;
+  font-size: 200px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: red;
+  color: white;
+}
+
+.fa-instagram {
+  background: dodgerblue;
+    color: white;
+}
+
 @media only screen and (max-width: 450px) {
     .about {
-       width: 70%;
+        width: 75%;
         margin-top: 15px;
     }
     .about p {
-    font-size: 16px;
-	line-height: 32px;
+        font-size: 18px;
+        line-height: 32px;
     }
 }
