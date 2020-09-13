@@ -34,8 +34,56 @@ a.nav-slogan {
     color: rgb(15, 129, 135) !important;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:  
+    'left right';
+} 
+
+.left {
+  grid-area: left;
+}
+
+.right {
+  grid-area: right;
+}
+
+.news {
+    height: 370px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgb(10, 10, 10);
+}
+
+.image {
+    height: 65%;
+    background-color: snow;
+}
+
+.image img {
+    min-height: 100%;
+    width: 100%;
+}
+
+
+.title {
+    height: 35%;
+    font-size: 25px;
+    color: rgb(15, 129, 135) !important;
+    text-align: center;
+}
+
+.title p {
+    font-family: 'Kumbh Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    
+}
+
 .footer {
-    margin-top: 500px; /* HAVE TO ADJUST ONCE CONTENT IS ADDED */
+    margin-top: 70px; /* HAVE TO ADJUST ONCE CONTENT IS ADDED */
     height: 100px;
     background-color: rgb(10, 10, 10);
 }
@@ -73,6 +121,18 @@ margin-top: 20px;
 @media only screen and (max-width: 992px) {
     a.nav-slogan {
         display: none;
+    }
+}
+
+@media (max-width: 650px) {
+  .grid-container  {
+    grid-template-areas: 
+        'left'
+        'right';
+    }
+    
+    .title p {
+        font-size: 21px;
     }
 }
 
