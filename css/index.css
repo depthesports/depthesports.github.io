@@ -15,8 +15,8 @@ body {
 }
 
 a.nav-link {
-    font-family: 'Monda', sans-serif;
-    font-size: 21px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 27px;
     color: rgb(15, 129, 135) !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
@@ -34,14 +34,33 @@ a.nav-slogan {
     color: rgb(15, 129, 135) !important;
 }
 
+.news_header {
+    width: 100%;
+}
+
+.news_header h1 {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 60px;
+    font-style: italic;
+    color: snow;
+    font-family: 'Oswald', sans-serif;
+}
+
 .grid-container {
   display: grid;
   grid-template-areas:  
-    'left right';
+    'left middle right';
 } 
 
 .left {
   grid-area: left;
+}
+
+.middle {
+    grid-area: middle;
 }
 
 .right {
@@ -50,14 +69,22 @@ a.nav-slogan {
 
 .news {
     height: 370px;
-    width: 80%;
+    width: 85%;
     margin: auto;
     margin-top: 50px;
     background-color: rgb(10, 10, 10);
 }
 
+.news_link {
+    text-decoration: none;
+}
+
+.news_link:hover {
+    text-decoration: none;
+}
+
 .image {
-    height: 65%;
+    height: 55%;
     background-color: snow;
 }
 
@@ -68,17 +95,18 @@ a.nav-slogan {
 
 
 .title {
-    height: 35%;
-    font-size: 25px;
-    color: rgb(15, 129, 135) !important;
+    height: 45%;
+    font-size: 23px;
+    color: snow;
     text-align: center;
 }
 
 .title p {
-    font-family: 'Kumbh Sans', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
+   font-family: 'Oswald', sans-serif;
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 15px;
+    text-align: left;
     
 }
 
@@ -128,11 +156,18 @@ margin-top: 20px;
   .grid-container  {
     grid-template-areas: 
         'left'
+        'middle'
         'right';
     }
     
     .title p {
-        font-size: 21px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 450px) {
+    .news_header h1 {
+        font-size: 40px;
     }
 }
 
