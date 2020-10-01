@@ -54,8 +54,8 @@ a.nav-slogan {
     width: 100%;
   display: grid;
   grid-template-areas:  
-    'player player player';
-    'player player player';
+    'player player player player';
+    'player player player player';
 } 
 
 .player {
@@ -71,12 +71,19 @@ a.nav-slogan {
     background-color: rgb(3, 130, 77);
 }
 
+.player img {
+    width: 100%;
+    height: 200px;
+}
 
 .player p {
+    width: 100%;
+    height: 50px;
     color: white;
     color: rgb(15, 129, 135);
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    padding-top: 13px;
 }
 
 
