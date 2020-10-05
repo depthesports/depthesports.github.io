@@ -1,4 +1,5 @@
 body {
+    /*background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/background2.png"); */
     background-color: rgb(3, 130, 77);
 }
 
@@ -34,14 +35,21 @@ a.nav-slogan {
     color: rgb(15, 129, 135) !important;
 }
 
-.teams {
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-}
 
 .team {
     margin-top: 50px;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    padding-bottom: 6.25em;
+}
+
+
+img.banner {
+    padding-top: 50px;;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 15px;
 }
 
 .team h1 {
@@ -54,8 +62,8 @@ a.nav-slogan {
     width: 100%;
   display: grid;
   grid-template-areas:  
-    'player player player player';
-    'player player player player';
+    'player player player player player ';
+    'player player player player player';
 } 
 
 .player {
