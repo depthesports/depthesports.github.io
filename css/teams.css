@@ -17,7 +17,7 @@ body {
 
 a.nav-link {
     font-family: 'Oswald', sans-serif;
-    font-size: 27px;
+    font-size: 24px;
     color: rgb(15, 129, 135) !important;
     padding-left: 25px !important;
     padding-right: 25px !important;
@@ -30,7 +30,7 @@ a.nav-link:hover {
 
 a.nav-slogan {
     pointer-events: none;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Shrikhand', cursive;
     color: rgb(15, 129, 135) !important;
 }
